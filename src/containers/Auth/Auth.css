@@ -1,0 +1,20 @@
+.Auth {
+  margin-top: 50px;
+  width: 80%;
+  justify-self: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  grid-column: 1 / -1;
+  }
+  
+  label {
+      text-align: left;
+      text-transform: capitalize;
+  }
+ 
+  @media (min-width: 600px) {
+      .Auth {
+          width: 500px;
+      }
+  }

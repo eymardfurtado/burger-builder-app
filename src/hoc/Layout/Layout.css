@@ -1,0 +1,15 @@
+.Content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    height: 50vh;
+    background-color: #173e43;
+}
+
+@media (max-width: 660px) {
+    .Content {
+        grid-template-columns: 1fr;
+    }
+}
